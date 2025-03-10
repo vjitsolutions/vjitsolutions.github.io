@@ -75,43 +75,91 @@
     </section>
     
 <!-- Services Section -->
-    <section id="services" class="section dark-bg">
-        <div class="section-title">
-            <h2>Our Services</h2>
+    <!-- Services Section -->
+<section id="services" class="section dark-bg">
+    <div class="section-title">
+        <h2>Our Services</h2>
+    </div>
+    <div class="services-container">
+        <div class="service-card">
+            <div class="service-image">
+                <img src="hard-drive.jpg" alt="Hard Drive Recovery">
+            </div>
+            <h3>Hard Drive Recovery</h3>
+            <p>Expert recovery of data from all types of hard drives, including internal and external HDDs affected by logical or physical failures.</p>
         </div>
-        <div class="services-container">
-            <div class="service-card">
-                <div class="service-icon">💾</div>
-                <h3>Hard Drive Recovery</h3>
-                <p>Expert recovery of data from all types of hard drives, including internal and external HDDs affected by logical or physical failures.</p>
+        <div class="service-card">
+            <div class="service-image">
+                <img src="ssd.jpg" alt="SSD Data Recovery">
             </div>
-            <div class="service-card">
-                <div class="service-icon">💿</div>
-                <h3>SSD Data Recovery</h3>
-                <p>Specialized recovery techniques for Solid State Drives with complex flash memory architecture and controller issues.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon">📱</div>
-                <h3>Memory Card Recovery</h3>
-                <p>Restore lost data from all types of memory cards including SD, microSD, CF, and more, used in cameras and mobile devices.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon">📹</div>
-                <h3>CCTV/DVR Recovery</h3>
-                <p>Recovery of critical surveillance footage from CCTV systems and DVR recordings even after system failures.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon">🔐</div>
-                <h3>RAID Recovery</h3>
-                <p>Complex RAID array recovery services for business servers and multi-disk storage systems.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon">🔒</div>
-                <h3>Ransomware Decryption</h3>
-                <p>Specialized decryption services to recover files affected by ransomware and malware attacks.</p>
-            </div>
+            <h3>SSD Data Recovery</h3>
+            <p>Specialized recovery techniques for Solid State Drives with complex flash memory architecture and controller issues.</p>
         </div>
-    </section>
+        <div class="service-card">
+            <div class="service-image">
+                <img src="memory-card.jpg" alt="Memory Card Recovery">
+            </div>
+            <h3>Memory Card Recovery</h3>
+            <p>Restore lost data from all types of memory cards including SD, microSD, CF, and more, used in cameras and mobile devices.</p>
+        </div>
+        <div class="service-card">
+            <div class="service-image">
+                <img src="cctv.jpg" alt="CCTV/DVR Recovery">
+            </div>
+            <h3>CCTV/DVR Recovery</h3>
+            <p>Recovery of critical surveillance footage from CCTV systems and DVR recordings even after system failures.</p>
+        </div>
+        <div class="service-card">
+            <div class="service-image">
+                <img src="raid.jpg" alt="RAID Recovery">
+            </div>
+            <h3>RAID Recovery</h3>
+            <p>Complex RAID array recovery services for business servers and multi-disk storage systems.</p>
+        </div>
+        <div class="service-card">
+            <div class="service-image">
+                <img src="ransomware.jpg" alt="Ransomware Decryption">
+            </div>
+            <h3>Ransomware Decryption</h3>
+            <p>Specialized decryption services to recover files affected by ransomware and malware attacks.</p>
+        </div>
+        <div class="service-card">
+            <div class="service-image">
+                <img src="pendrive.jpg" alt="Pendrive Recovery">
+            </div>
+            <h3>Pendrive Recovery</h3>
+            <p>Retrieve lost or deleted data from USB flash drives affected by corruption, accidental formatting, or physical damage.</p>
+        </div>
+        <div class="service-card">
+            <div class="service-image">
+                <img src="tape.jpg" alt="Tape Drive Recovery">
+            </div>
+            <h3>Tape Drive Recovery</h3>
+            <p>Professional recovery services for magnetic tape storage media used for enterprise backups and archival purposes.</p>
+        </div>
+        <div class="service-card">
+            <div class="service-image">
+                <img src="endy.png" alt="Encryption Media Recovery">
+            </div>
+            <h3>Encryption Media Recovery</h3>
+            <p>Specialized services to recover data from encrypted storage devices while maintaining data security protocols.</p>
+        </div>
+        <div class="service-card">
+            <div class="service-image">
+                <img src="database.jpg" alt="Database Recovery">
+            </div>
+            <h3>Database Recovery</h3>
+            <p>Recovery of corrupted or damaged databases including SQL, Oracle, MySQL, PostgreSQL, and other popular database systems.</p>
+        </div>
+        <div class="service-card">
+            <div class="service-image">
+                <img src="nas.jpg" alt="NAS/SAN Recovery">
+            </div>
+            <h3>NAS/SAN Recovery</h3>
+            <p>Expert recovery solutions for Network Attached Storage and Storage Area Network systems for enterprise environments.</p>
+        </div>
+    </div>
+</section>
     
     <!-- Process Section -->
     <section id="process" class="section light-bg">
@@ -391,9 +439,15 @@
                     <div class="form-group">
                         <select class="form-control" name="service" required>
                             <option value="" disabled selected>Select Service</option>
-                            <option value="hard-drive">Hard Drive Recovery</option>
-                            <option value="ssd">SSD Recovery</option>
                             <option value="memory-card">Memory Card Recovery</option>
+                            <option value="ssd">SSD Recovery</option>
+                            <option value="cctv">CCTV/DVR Recovery</option>
+                            <option value="pendrive">Pendrive Recovery</option>
+                            <option value="tape-drive">Tape Drive Recovery</option>
+                            <option value="encryption-media">Encryption Media Recovery</option>
+                            <option value="database">Database Recovery</option>
+                            <option value="nas-san">NAS/SAN Recovery</option>
+                            <option value="hard-drive">Hard Drive Recovery</option>
                             <option value="raid">RAID Recovery</option>
                             <option value="ransomware">Ransomware Decryption</option>
                             <option value="other">Other Services</option>
@@ -438,12 +492,18 @@
             </div>
             <div class="footer-links">
                 <h3 class="footer-heading">Services</h3>
+                <a href="#services">SSD Data Recovery</a>
+                <a href="#services">Pendrive Data Recovery</a>
                 <a href="#services">Hard Drive Recovery</a>
-                <a href="#services">SSD Recovery</a>
+                <a href="#services">CCTV/DVR Data Recovery</a>
+                <a href="#services">Tape Drive Data Recovery</a>
+                <a href="#services">Encryption Media Data Recovery</a>
                 <a href="#services">Memory Card Recovery</a>
                 <a href="#services">RAID Recovery</a>
+                <a href="#services">NAS/SAN Data Recovery</a>
                 <a href="#services">Ransomware Decryption</a>
                 <a href="#services">Database Recovery</a>
+
             </div>
             <div class="footer-links">
                 <h3 class="footer-heading">Contact</h3>
