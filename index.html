@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VJ IT Solutions - Data Recovery Experts</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 3D Canvas Background -->
+    <canvas id="hero-canvas"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+    emailjs.init("aP1OarRKbHUZz7Cdv");
+    </script>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="VJIT Logo" />
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#process">Process</a>
+            <a href="#why-us">Why Us</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Expert Data Recovery Solutions</h1>
+            <p>VJ IT Solutions is Coimbatore's trusted data recovery specialist, recovering valuable data with speed and precision. We handle all types of storage devices with a 95% success rate.</p>
+            <!-- Added 10k services milestone banner -->
+            <div class="milestone-banner">
+                <span class="milestone-number">10,000+</span>
+                <span class="milestone-text">Successful Recoveries</span>
+            </div>
+            <div class="hero-btns">
+                <a href="#contact" class="btn">Get Help Now</a>
+                <a href="#services" class="btn btn-secondary">Our Services</a>
+            </div>
+        </div>
+        <img src="data.jpg" alt="Data Recovery Illustration" class="float-image">
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="section light-bg">
+        <div class="section-title">
+            <h2>About Us</h2>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>VJ Data Recovery is among the fastest-growing professional data recovery service providers in Coimbatore. We are dedicated to retrieving your valuable data with speed and precision.</p>
+                <p>Our expert team offers reliable, affordable, and transparent recovery solutions for individuals and businesses, ensuring the highest chances of successful recovery across all types of storage media.</p>
+                <p>Your data's confidentiality and privacy are our top priorities. We have successfully recovered data from devices that other companies deemed unrecoverable.</p>
+                <!-- Added 10k milestone mention in About section -->
+                <p class="highlight-text">With over 10,000 successful recovery services completed, our track record speaks for itself. Our pricing is upfront and transparent, and we keep you informed at every stage of the recovery process. Choose VJ Data Recovery for expertise and receive a no-obligation, free diagnosis within 24 hours.</p>
+                <a href="#services" class="btn">Explore Our Services</a>
+            </div>
+            <div class="about-image">
+                <img src="office.png" alt="VJ IT Solutions Office">
+            </div>
+        </div>
+    </section>
+    
+<!-- Services Section -->
+    <section id="services" class="section dark-bg">
+        <div class="section-title">
+            <h2>Our Services</h2>
+        </div>
+        <div class="services-container">
+            <div class="service-card">
+                <div class="service-icon">💾</div>
+                <h3>Hard Drive Recovery</h3>
+                <p>Expert recovery of data from all types of hard drives, including internal and external HDDs affected by logical or physical failures.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💿</div>
+                <h3>SSD Data Recovery</h3>
+                <p>Specialized recovery techniques for Solid State Drives with complex flash memory architecture and controller issues.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📱</div>
+                <h3>Memory Card Recovery</h3>
+                <p>Restore lost data from all types of memory cards including SD, microSD, CF, and more, used in cameras and mobile devices.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📹</div>
+                <h3>CCTV/DVR Recovery</h3>
+                <p>Recovery of critical surveillance footage from CCTV systems and DVR recordings even after system failures.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔐</div>
+                <h3>RAID Recovery</h3>
+                <p>Complex RAID array recovery services for business servers and multi-disk storage systems.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔒</div>
+                <h3>Ransomware Decryption</h3>
+                <p>Specialized decryption services to recover files affected by ransomware and malware attacks.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Process Section -->
+    <section id="process" class="section light-bg">
+        <div class="section-title">
+            <h2>Our Recovery Process</h2>
+        </div>
+        <div class="process-steps">
+            <div class="process-line"></div>
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Free Consultation</h3>
+                <p>Initial discussion to understand your data loss situation</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Media Analysis</h3>
+                <p>Free evaluation of your storage device</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Assessment Report</h3>
+                <p>Detailed diagnosis with recovery options</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Data Recovery</h3>
+                <p>Expert recovery using advanced techniques</p>
+            </div>
+            <div class="step">
+                <div class="step-number">5</div>
+                <h3>Verification</h3>
+                <p>Thorough check of recovered files</p>
+            </div>
+            <div class="step">
+                <div class="step-number">6</div>
+                <h3>Data Delivery</h3>
+                <p>Secure transfer of your recovered data</p>
+            </div>
+        </div>
+        
+        <div class="tips-container">
+            <div class="tips-box do-box">
+                <h3>Things To Do</h3>
+                <div class="tip-item">
+                    <div class="tip-icon">✓</div>
+                    <div class="tip-text">Stop using the storage media immediately after data loss</div>
+                </div>
+                <div class="tip-item">
+                    <div class="tip-icon">✓</div>
+                    <div class="tip-text">Safely eject your devices to prevent further damage</div>
+                </div>
+                <div class="tip-item">
+                    <div class="tip-icon">✓</div>
+                    <div class="tip-text">Use a reliable component reader for data transfer</div>
+                </div>
+                <div class="tip-item">
+                    <div class="tip-icon">✓</div>
+                    <div class="tip-text">Try trusted recovery software for logical issues</div>
+                </div>
+                <div class="tip-item">
+                    <div class="tip-icon">✓</div>
+                    <div class="tip-text">Back up your data regularly to prevent future loss</div>
+                </div>
+                <div class="tip-item">
+                    <div class="tip-icon">✓</div>
+                    <div class="tip-text">Contact professionals for physically damaged devices</div>
+                </div>
+            </div>
+            <div class="tips-box dont-box">
+                <h3>Things Not To Do</h3>
+                <div class="tip-item">
+                    <div class="tip-icon">✗</div>
+                    <div class="tip-text">Don't format your storage device before recovery</div>
+                </div>
+                <div class="tip-item">
+                    <div class="tip-icon">✗</div>
+                    <div class="tip-text">Avoid using unverified recovery tools</div>
+                </div>
+                <div class="tip-item">
+                    <div class="tip-icon">✗</div>
+                    <div class="tip-text">Don't force the storage media into a device slot</div>
+                </div>
+                <div class="tip-item">
+                    <div class="tip-icon">✗</div>
+                    <div class="tip-text">Don't save recovered data on the same storage media</div>
+                </div>
+                <div class="tip-item">
+                    <div class="tip-icon">✗</div>
+                    <div class="tip-text">Don't ignore warning signs like slow performance</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Why Us Section -->
+    <section id="why-us" class="section dark-bg">
+        <div class="section-title">
+            <h2>Why Choose Us</h2>
+        </div>
+        <!-- Added achievement counters section with 10k highlight -->
+        <div class="achievements-container">
+            <div class="achievement-item">
+                <div class="achievement-number">10,000+</div>
+                <div class="achievement-text">Successful Recoveries</div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-number">95%</div>
+                <div class="achievement-text">Success Rate</div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-number">24/7</div>
+                <div class="achievement-text">Customer Support</div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-number">25</div>
+                <div class="achievement-text">Years Experience to our Engineer</div>
+            </div>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🏆</div>
+                <h3>25 Years Experience</h3>
+                <p>Our engineers bring decades of specialized data recovery expertise to every case.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💰</div>
+                <h3>Transparent Pricing</h3>
+                <p>100% transparent fixed prices with no hidden costs or unexpected charges.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3>Confidentiality</h3>
+                <p>Your data is handled with the highest standards of privacy and security.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📱</div>
+                <h3>24/7 Support</h3>
+                <p>Round-the-clock customer support for emergencies and inquiries.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🌐</div>
+                <h3>Nationwide Service</h3>
+                <p>Serving customers across India with expert data recovery solutions.</p>
+            </div>
+        </div>
+        
+        <div class="team-section">
+            <div class="section-title">
+                <h2>Our Expert Team</h2>
+            </div>
+            <div class="team-card">
+                <div class="team-info">
+                    <h3>Data Recovery Specialists</h3>
+                    <p>Our team of engineers brings 10+ years of specialized experience in data recovery, ensuring the highest success rates even in the most challenging cases.</p>
+                    <div class="team-social">
+                        <a href="mailto:vjitsolutions1@gmail.com" class="social-icon">📧</a>
+                        <a href="tel:+919688751433" class="social-icon">📱</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="section light-bg">
+        <div class="section-title">
+            <h2>Client Testimonials</h2>
+            <!-- Added testimonial subtitle with 10k reference -->
+            <p class="section-subtitle">See what some of our 10,000+ satisfied customers have to say</p>
+        </div>
+        <div class="testimonials-container">
+            <div class="testimonials-track">
+                <div class="testimonial">
+                    <div class="quote-icon">❝</div>
+                    <p class="testimonial-text">VJ IT Solutions recovered critical business data from our crashed server that other companies said was impossible. Their service was fast, professional, and they kept us informed throughout the entire process.</p>
+                    <div class="client-info">
+                        <div class="client-details">
+                            <h4>Ravi Kumar</h4>
+                            <p>Business Owner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="quote-icon">❝</div>
+                    <p class="testimonial-text">I thought my wedding photos were lost forever when my external hard drive stopped working. VJ IT Solutions recovered everything! Their team was compassionate, understanding, and incredibly skilled.</p>
+                    <div class="client-info">
+                        <div class="client-details">
+                            <h4>Priya Sharma</h4>
+                            <p>Customer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="quote-icon">❝</div>
+                    <p class="testimonial-text">After a ransomware attack locked all our company files, we were desperate. VJ IT Solutions not only recovered our data but helped secure our systems against future attacks. Truly a lifesaver for our business!</p>
+                    <div class="client-info">
+                        <div class="client-details">
+                            <h4>Ajith Menon</h4>
+                            <p>IT Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section dark-bg">
+        <div class="section-title">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Contact</h3>
+                <div class="info-item">
+                    <div class="info-icon">📞</div>
+                    <div class="info-details">
+                        <h4>Phone</h4>
+                        <p>+91 9688751433</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">📧</div>
+                    <div class="info-details">
+                        <h4>Email</h4>
+                        <a href="mailto:vjitsolutions1@gmail.com">vjitsolutions1@gmail.com</a>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div class="info-details">
+                        <h4>Location</h4>
+                        <p>Coimbatore, Tamil Nadu, India</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">🕒</div>
+                    <div class="info-details">
+                        <h4>Working Hours</h4>
+                        <p>24/7 Support Available</p>
+                    </div>
+                </div>
+                
+<h3 class="social-heading">Connect With Us</h3>
+<div class="social-container">
+    <a href="https://www.instagram.com/vj_it_solutions" class="social-item" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+        <span class="social-title">Instagram</span>
+    </a>
+    <a href="https://wa.me/+919688751433" class="social-item" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="social-title">WhatsApp</span>
+    </a>
+    <a href="https://www.facebook.com/share/15t2ETmVAD/" class="social-item" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+        <span class="social-title">Facebook</span>
+    </a>
+</div>
+            </div>
+            <div class="contact-form">
+                <h3>Send Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="user_name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="user_email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" name="user_phone" placeholder="Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" name="service" required>
+                            <option value="" disabled selected>Select Service</option>
+                            <option value="hard-drive">Hard Drive Recovery</option>
+                            <option value="ssd">SSD Recovery</option>
+                            <option value="memory-card">Memory Card Recovery</option>
+                            <option value="raid">RAID Recovery</option>
+                            <option value="ransomware">Ransomware Decryption</option>
+                            <option value="other">Other Services</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn form-btn">Send Message</button>
+                </form>                
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-about">
+                <div class="footer-logo">        
+                    <div class="logod">
+                        <img src="logod.png" alt="VJIT Logo" />
+                    </div>
+                </div>
+                <p>VJ Data Recovery is among the fastest-growing professional data recovery service providers in Coimbatore. We are dedicated to retrieving your valuable data with speed and precision.</p>
+                <!-- Added 10k milestone tag to footer -->
+                <div class="footer-achievement">
+                    <span>10,000+ Successful Recoveries</span>
+                </div>
+                <div class="social-links">
+                    <a href="tel:+919688751433" class="social-icon">📱</a>
+                    <a href="mailto:vjitsolutions1@gmail.com" class="social-icon">📧</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3 class="footer-heading">Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#process">Process</a>
+                <a href="#why-us">Why Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-links">
+                <h3 class="footer-heading">Services</h3>
+                <a href="#services">Hard Drive Recovery</a>
+                <a href="#services">SSD Recovery</a>
+                <a href="#services">Memory Card Recovery</a>
+                <a href="#services">RAID Recovery</a>
+                <a href="#services">Ransomware Decryption</a>
+                <a href="#services">Database Recovery</a>
+            </div>
+            <div class="footer-links">
+                <h3 class="footer-heading">Contact</h3>
+                <a href="tel:+919688751433">+91 9688751433</a>
+                <a href="mailto:vjitsolutions1@gmail.com">vjitsolutions1@gmail.com</a>
+                <a href="#">Coimbatore, Tamil Nadu</a>
+                <a href="https://www.instagram.com/vj_it_solutions">Instagram</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 VJ IT Solutions. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <div class="back-to-top">↑</div>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
