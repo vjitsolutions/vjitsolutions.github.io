@@ -669,9 +669,14 @@ body {
 /* Team */
 .team-section {
     text-align: center;
-    padding: 5%;
+    padding: 10%;
 }
-
+.team-section h2 {
+    font-size: 2.5rem;
+    color: var(--light);
+    position: relative;
+    top: 50px;
+}
 .team-card {
     max-width: 350px;
     margin: 0 auto;
