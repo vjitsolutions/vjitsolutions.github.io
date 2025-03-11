@@ -669,6 +669,7 @@ body {
 /* Team */
 .team-section {
     text-align: center;
+    padding: 5%;
 }
 
 .team-card {
